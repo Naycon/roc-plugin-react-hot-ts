@@ -27,6 +27,7 @@
     "url": "https://github.com/Naycon/roc-plugin-react-hot-ts"
   },
   "dependencies": {
+    "react-hot-loader": "^1.3.0",
     "roc": "^1.0.0-rc"
   },
   "devDependencies": {
