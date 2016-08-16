@@ -1,0 +1,17 @@
+{
+  "name": "roc-plugin-react-hot-ts",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "rid": "rid",
+    "build": "rid build",
+    "clean": "rid clean",
+    "lint": "rid lint:alias",
+    "link": "rid link",
+    "release": "rid release",
+    "test": "npm run lint"
+  },
+  "devDependencies": {
+    "@rocjs/roc-internal-dev": "^1.0.0"
+  }
+}
