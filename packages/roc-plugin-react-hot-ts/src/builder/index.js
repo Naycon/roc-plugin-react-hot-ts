@@ -1,7 +1,6 @@
 import path from 'path';
 import { getSettings } from 'roc';
 
-
 export default () => ({ previousValue: rocBuilder }) => () => () => {
     const {
         buildConfig,

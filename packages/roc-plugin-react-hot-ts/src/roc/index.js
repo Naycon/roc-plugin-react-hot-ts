@@ -1,9 +1,9 @@
 import config from '../config/roc.config.js';
 import meta from '../config/roc.config.meta.js';
+import builder from '../builder';
 
 import { name } from './util';
 
-import builder from './builder';
 
 export default {
     name,
