@@ -4,7 +4,6 @@ import builder from '../builder';
 
 import { name } from './util';
 
-
 export default {
     name,
     config,
