@@ -14,5 +14,9 @@ export default {
             description: 'Adds hot reload support via webpacks HMR to projects using react and typescript.',
             action: builder
         }
+    },
+    required: {
+        'roc-plugin-typescript': '^1.0.3',
+        'roc-plugin-react': '^1.0.0-alpha.2'
     }
 };
