@@ -1,7 +1,7 @@
 import path from 'path';
 import { getSettings } from 'roc';
 
-export default () => ({ previousValue: rocBuilder }) => () => () => {
+export default () => ({ previousValue: rocBuilder }) => (target) => () => {
     const {
         buildConfig,
         builder,
@@ -10,8 +10,9 @@ export default () => ({ previousValue: rocBuilder }) => () => () => {
 
     const buildSettings = getSettings('build');
     const DEV = (buildSettings.mode === 'dev');
+    const WEB = target === 'web';
 
-    if (DEV) {
+    if (DEV && WEB) {
         // Add hot reloading capabilities for tsx-files
         const reactHotLoader = {
             test: /\.tsx?$/,
