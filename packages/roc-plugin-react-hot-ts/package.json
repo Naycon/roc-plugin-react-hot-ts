@@ -3,7 +3,7 @@
   "description": "A roc plugin that ads react hot reloading in webpack for *.ts and *.tsx files",
   "author": "Johan Persson",
   "license": "MIT",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "lib/index.js",
   "scripts": {
     "lint": "eslint .",
